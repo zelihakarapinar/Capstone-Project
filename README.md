@@ -1,4 +1,4 @@
-#Explainable BEARING FAULT DIAGNOSIS BY DEEP LEARNING
+# Explainable BEARING FAULT DIAGNOSIS BY DEEP LEARNING
 
 This repository presents an **interpretable deep learning framework** for **rolling element bearing fault diagnosis**. The methodology combines **raw vibration signal modeling**, **frequency domain transformation**, and **explainability tools** (SHAP) for insightful diagnostics aligned with physical fault frequencies.
 
@@ -37,7 +37,7 @@ This repository presents an **interpretable deep learning framework** for **roll
    - SHAP values are overlaid on FFT magnitude plots.
    - Fault frequencies (BPFI, BPFO, BSF, FTF) are marked for comparison.
 
-##Results Summary
+## Results Summary
 
 ## Results Summary
 
@@ -49,7 +49,7 @@ This repository presents an **interpretable deep learning framework** for **roll
 
 ---
 
-##Why Interpretability Matters
+## Why Interpretability Matters
 
 In industrial diagnostics, a prediction alone is not enough — **engineers must understand the reasoning** behind a fault classification. This project bridges that gap by:
 - Linking learned features to known fault frequencies.
