@@ -24,9 +24,9 @@ This repository presents an **interpretable deep learning framework** for **roll
 
 1. **MATLAB Preprocessing**  
    Raw bearing signals are segmented, labeled, and exported as `.csv` files using:
-   - `1_convert_to_matrix.m`
-   - `2_split_segments.m`
-   - `3_generate_labels.m`
+   - `1_merged_byfaulttype.m`
+   - `2_merged_alldata.m`
+   - `3_windowed_withmergeddata.m`
 
 2. **Model Development (Python/Colab)**  
    - Trains 1D-CNN on raw time-domain data.
