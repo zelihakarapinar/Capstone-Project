@@ -1,4 +1,4 @@
-# 🛠️ Explainable 1D-CNN for Bearing Fault Diagnosis with DFT and SHAP
+# 🛠️ Explainable BEARING FAULT DIAGNOSIS BY DEEP LEARNING
 
 This repository presents an **interpretable deep learning framework** for **rolling element bearing fault diagnosis**. The methodology combines **raw vibration signal modeling**, **frequency domain transformation**, and **explainability tools** (SHAP) for insightful diagnostics aligned with physical fault frequencies.
 
