@@ -51,10 +51,13 @@ This repository presents an **interpretable deep learning framework** for **roll
 
 ## 📈 Results Summary
 
-| Model Input        | Accuracy | Interpretability | Comments |
-|--------------------|----------|------------------|----------|
-| Raw Time-Series    | ✅ High  | ✅ Moderate       | Best classification performance |
-| Frequency-Domain   | ✅ High  | ✅ High           | Enhanced transparency with SHAP |
+## Results Summary
+
+| Metric              | Raw Time-Series (1DCNN) | FFT-Transformed Data (DFT + 1DCNN) |
+|---------------------|-------------------------|------------------------------------|
+| Training Accuracy    | 99.59%                  | 99.36%                             |
+| Validation Accuracy  | 99.69%                  | 99.63%                             |
+| **Testing Accuracy** | **93.14%**              | **82.22%**                        |
 
 ---
 
